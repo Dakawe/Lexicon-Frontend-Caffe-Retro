@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  font-family: "poiret one";
+}
+body {
+  overflow-x: hidden;
+  width: 100vw;
+}
+#menu {
+  background-color: rgba(43, 28, 35, 0.8);
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  padding: 25px;
+  position: fixed;
+  width: inherit;
+  z-index: 1;
+}
+.link {
+  color: white;
+  font-family: "Spirax", sans-serif;
+  font-size: 35px;
+  text-decoration: none;
+}
+section {
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+
+  border-bottom: 25px solid rgb(123, 5, 5, 0.75);
+}
+
+article {
+  position: relative;
+  color: white;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 25px;
+}
+article h1 {
+  color: rgb(177, 21, 21);
+  font-size: 75px;
+  font-family: "Spirax";
+  text-align: center;
+}
+article p {
+  background-color: darkred;
+  padding: 10px 20px;
+}
+
+.wrap {
+  background-color: rgb(0, 0, 0, 0.75);
+  padding: 10px 25px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+p {
+  position: relative;
+  text-align: center;
+}
+
+#p1 {
+  right: 75px;
+}
+#p2 {
+  left: 75px;
+}
+#hot {
+  background-image: url(hot.jpg);
+}
+#juicy {
+  background-image: url(juicy.jpg);
+}
+#cozy {
+  background-image: url(cosy.jpg);
+}
